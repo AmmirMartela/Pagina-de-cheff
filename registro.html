@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/estilos/style.css">
+</head>
+<div class="bodyregis">
+
+    <body>
+        <header>
+            <div class="container1">
+                <div class="logo">
+                    <img src="assets/img/logochef.png">
+                    MORE & MORE
+                </div>
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="index.html"> Volver al Inicio</a></li>
+                        
+
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <h1 class="auntentic">Registro a more & more</h1>
+        <p class="aja"> Aqui puedes registrarte para encontrar toda nuestra información y recetas de forma gratuita!
+        </p>
+        <div class="si">
+            <h2>Registro de Nuevo Usuario</h2>
+
+            <form id="registroForm">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required><br><br>
+
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" required><br><br>
+
+                <label for="fechaNacimiento">Fecha de nacimiento:</label>
+                <input type="date" id="fechaNacimiento" required><br><br>
+
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" required><br><br>
+
+                <button type="button" onclick="registrarUsuario()">Registrarse</button>
+                <p id="resultadoRegistro"></p><br>
+                <br>
+                <p>¿Ya tienes una cuenta?</p><br>
+                
+                <a class="sis"        href="autenticacion.html">Inicia sesión</a>
+            </form>
+            <script src="assets/javascript/java.js"></script>
+        </div>
+
+    </body>
+</div>
+
+</html>
